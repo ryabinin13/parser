@@ -17,7 +17,8 @@ class SpimexTradingResults(Base):
     volume: Mapped[str]
     total: Mapped[str]
     count: Mapped[str]
+    created_on: Mapped[date]
+    updated_on: Mapped[date]
     date: Mapped[date]
-    created_on: Mapped[str]
-    updated_on: Mapped[str]
+    
 
